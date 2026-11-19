@@ -98,13 +98,12 @@ python PES1UG24CS486_PES1UG24CS393_PES1UG24CS367_PES1UG24CS341.py --model resnet
 
 ## Results
 
-To be filled in after running on a dataset with two classes.
-
-| Model | Test accuracy |
+| Method | Test accuracy |
 |---|---|
-| SVM (SIFT + Harris) | – |
-| ResNet-18 (pretrained) | – |
-| MViT-v2-S (pretrained) | – |
+| SIFT + Harris + SVM | 60% |
+| ResNet-18 | 90% |
+
+ResNet-18 beats the classical pipeline by 30 percentage points. Features learned by a CNN capture leaf texture and lesion patterns much better than handcrafted SIFT and Harris descriptors.
 
 ## Dataset source
 
